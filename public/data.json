@@ -1,0 +1,108 @@
+{
+  "categories": [
+    { "name": "All photo" },
+    { "name": "Travel" },
+    { "name": "Street Photography" },
+    { "name": "Business & Work" },
+    { "name": "Fashion & Beauty" },
+    { "name": "Health & Wellness" },
+    { "name": "Arts & Culture" }
+  ],
+  "collections": [
+    {
+      "category": 1,
+      "name": "Travel",
+      "photos": [
+        "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dHJhdmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1528543606781-2f6e6857f318?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dHJhdmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      ]
+    },
+    {
+      "category": 2,
+      "name": "Street Photography",
+      "photos": [
+        "https://images.unsplash.com/photo-1579033014049-f33d9b14d37e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8U3RyZWV0JTIwUGhvdG9ncmFwaHl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1604999804186-202fb601fa93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8U3RyZWV0JTIwUGhvdG9ncmFwaHl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1604580493681-464df06de70c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fFN0cmVldCUyMFBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1616643672069-794306ac9d59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fFN0cmVldCUyMFBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1649190079473-1fabfbf3d390?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fFN0cmVldCUyMFBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1649249214619-316fca4e0022?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fFN0cmVldCUyMFBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      ]
+    },
+    {
+      "category": 3,
+      "name": "Business & Work",
+      "photos": [
+        "https://images.unsplash.com/photo-1462899006636-339e08d1844e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fEJ1c2luZXNzJTIwJTI2JTIwV29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1507537417841-81e85feb9bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fEJ1c2luZXNzJTIwJTI2JTIwV29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1573164574048-f968d7ee9f20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fEJ1c2luZXNzJTIwJTI2JTIwV29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1519332978332-21b7d621d05e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fEJ1c2luZXNzJTIwJTI2JTIwV29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8V29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1671726203394-491c8b574a0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MzZ8fFdvcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+      ]
+    },
+    {
+      "category": 4,
+      "name": "Fashion & Beauty",
+      "photos": [
+        "https://images.unsplash.com/photo-1589782051446-a24efcec7ffc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fEZhc2hpb24lMjAlMjYlMjBCZWF1dHl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1469504484373-b23e7ba83aa5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fEZhc2hpb24lMjAlMjYlMjBCZWF1dHl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fEZhc2hpb24lMjAlMjYlMjBCZWF1dHl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1566534268110-74c44e12e34d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fEZhc2hpb24lMjAlMjYlMjBCZWF1dHl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1501644898242-cfea317d7faf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE5fHxGYXNoaW9uJTIwJTI2JTIwQmVhdXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1549439602-43ebca2327af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      ]
+    },
+    {
+      "category": 5,
+      "name": "Health & Wellness",
+      "photos": [
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8SGVhbHRoJTIwJTI2JTIwV2VsbG5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fEhlYWx0aCUyMCUyNiUyMFdlbGxuZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1526430439824-f9701bdb2320?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fEhlYWx0aCUyMCUyNiUyMFdlbGxuZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1506458961255-571f40df5aad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fEhlYWx0aCUyMCUyNiUyMFdlbGxuZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1470162656305-6f429ba817bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjF8fEhlYWx0aCUyMCUyNiUyMFdlbGxuZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fEhlYWx0aCUyMCUyNiUyMFdlbGxuZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      ]
+    },
+    {
+      "category": 6,
+      "name": "Arts & Culture",
+      "photos": [
+        "https://images.unsplash.com/photo-1559583933-574dd93954c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8QXJ0cyUyMCUyNiUyMEN1bHR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1665937501422-1672c1664e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fEFydHMlMjAlMjYlMjBDdWx0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1613922848258-a673f1b42a81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fEFydHMlMjAlMjYlMjBDdWx0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1594201272716-9ad78d16848b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fEFydHMlMjAlMjYlMjBDdWx0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1583021232973-7f558362b97c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fEFydHMlMjAlMjYlMjBDdWx0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "title": "Reaching in Drone Photography",
+      "text": "One of the main wonders of photography has always been its ability to offer a window into new worlds that many have never experienced first-hand. From historical photographs of the March on Washington to present-day images of the Northern Lights in Iceland. And the good news? New technology continues to push the boundaries of what’s possible with photography. Drone photography, for instance, reaches new heights and captures perspectives most of us can’t fully fathom. As the art of aerial photography continues to grow on Unsplash, we recently spoke to three contributors about how and why they started experimenting with drones in the first place, to their tips for any beginners looking to dive into drone photography.",
+      "autor": "Kristaps Ungurs",
+      "autorText": "first got into aerial photography by accident, after getting the chance to fly a drone at work. He remembers the moment fondly: “As soon as the drone took off, there was no turning back. The whole horizon opened up for me, and I immediately fell in love.” He uses a DJI Mavic 3.",
+      "autorImg": "https://images.unsplash.com/photo-1673611891462-53e9cead7531?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2834&q=80"
+    },
+    {
+      "title": "One Year with 3D Renders",
+      "text": "Last year, we started accepting 3D renders to the Unsplash Library, and we’ve watched contributors push the boundaries of creativity forward ever since. New creatives have joined the Unsplash community and brought with them imagery of abstract worlds, intriguing textures, and more. We spoke to a few of our top 3D render contributors about how they got started with the art form and their top tips for anyone looking to start experimenting with 3D rendering.",
+      "autor": "Galina Nelyubova",
+      "autorText": "lives in Auckland New Zealand. When she isn’t working on 3D art, she’s spending time with her family. She started 3D rendering just under 2 years ago at the age of 36 after working in a completely different field. She says, “I was worried about it being too late to learn something new, but I’ve always dreamed of having creative freedom, and 3D feels like magic to me.”",
+      "autorImg": "https://unsplash.com/blog/content/images/size/w1600/2022/11/galina-nelyubova-rt1UHxe939w-unsplash.jpg"
+    },
+    {
+      "title": "How Editing Can Transform an Image",
+      "text": "A lot of work goes into taking a photograph. Before the inevitable ‘click’ — chances are you spent time planning what gear you’d bring, checking the weather conditions for the day, experimenting with camera settings, and finding the perfect framing for your shot. But what happens next is equally transformative. Editing. Some photographers love it, many simply put up with it — but the reality is: editing has the power to elevate and enhance what you’ve worked hard to capture. We spoke with three Unsplash contributors about all things editing — from their top tips for beginners looking to improve their skills, to their approach to the editing process.",
+      "autor": "Simone Hutsch",
+      "autorText": "is a graphic designer from Berlin, Germany currently living in London, UK. While photography was always a part of her studies, she only really got into architecture photography after she graduated. It served as a creative outlet. She says, “I first started photography as a personal creative project outside of work, and that’s still the case. I see this as a journey, and what matters to me is that every day I get a tiny bit better and truly enjoy what I’m doing.”",
+      "autorImg": "https://images.unsplash.com/photo-1673774161922-667ceb138db2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+    }
+  ]
+}

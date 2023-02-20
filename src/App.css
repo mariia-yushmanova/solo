@@ -1,38 +1,352 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  cursor: default;
+  color: #111;
+  cursor: pointer;
+}
+a:hover {
+  color: #111;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 62px;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 4px 6px -4px rgb(0 0 0 / 8%);
+  z-index: 100;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+.nav__item {
+  padding: 0 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.nav__link {
+  color: #767676;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header__logo {
+  flex: 1;
+  color: #111;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 20px;
+}
+.header__img {
+  width: 46px;
+  margin-right: 10px;
+}
+.header__link {
+  display: flex;
+  align-items: center;
+}
+
+.music {
+  height: 51px;
+  position: fixed;
+  z-index: 200;
+  overflow-y: scroll;
+  display: flex;
+  right: -55px;
+  top: 90px;
+  border-radius: 25px;
+  width: 100px;
+  transition: width 1s;
+}
+
+.music:hover {
+  right: 0;
+  width: 300px;
+  transition-timing-function: ease;
+}
+
+.audio {
+  height: 50px;
+}
+
+.info__flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.info {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.info__img {
+  height: 460px;
+}
+.info__icon {
+  margin-right: 20px;
+}
+.info__text {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+.info__btn {
+  color: #fff;
+  background-color: #111;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  text-decoration: none;
+  -webkit-box-shadow: 0 1px 4px rgb(0 0 0 / 2%), 0 1px 1px rgb(0 0 0 / 6%);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 2%), 0 1px 1px rgb(0 0 0 / 6%);
+  padding: 9px 18px;
+  font-size: 15px;
+  line-height: 1.6;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.info__btn:hover {
+  transform: scale(1.05);
+}
+
+.photo {
+  overflow: hidden;
+}
+.photo__line {
+  background-image: url(/public/img/photo.jpeg);
+  height: 420px;
+  background-size: 1600px;
+  background-repeat: repeat-x;
+  background-position: center;
+  width: 4800px;
+  -webkit-animation: scroll-grid 180s linear infinite;
+  animation: scroll-grid 180s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .photo__line {
+    height: 440px;
+    background-size: 2420px;
+    width: 7260px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@keyframes scroll-grid {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(-2420px, 0, 0);
+    transform: translate3d(-2420px, 0, 0);
+  }
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.search__visibility {
+  visibility: hidden;
+  font-size: 10px;
+}
+.search-line {
+  margin-bottom: 30px;
+  padding-top: 75px;
+}
+.active {
+  color: #111;
+}
+.search__flex {
+  display: flex;
+  background-color: #eee;
+  border-radius: 15px;
+}
+.search__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #767676;
+  cursor: pointer;
+}
+.search__input {
+  border-radius: 15px;
+  background-color: #eee;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  height: 30px;
+  width: 200px;
+  padding-left: 7px;
+}
+/* collection */
+
+.catalog {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  height: 100vh;
+}
+.catalog__card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* gap: 15px; */
+  overflow: scroll;
+}
+.catalog__img {
+  max-width: 416px;
+}
+
+.blog_text {
+  text-align: center;
+  padding: 65px 0 21px 0;
+  font-size: 23px;
+  line-height: 1.2;
+  color: #767676;
+}
+
+.articles {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.articles__content {
+  position: relative;
+  box-shadow: 0 4px 6px -4px rgb(0 0 0 / 8%);
+}
+.articles__title {
+  font-weight: 700;
+  transform: translate(-30%, -50%);
+  position: absolute;
+  backdrop-filter: blur(6px);
+  top: 77%;
+  left: 40%;
   color: white;
+  font-size: 19px;
+  text-align: center;
+}
+.articles__img {
+  height: 250px;
+  width: 390px;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  height: 120px;
+}
+.gap {
+  gap: 20px;
+}
+.footer__content {
+  flex: 1;
+}
+.footer__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__text {
+  color: #767676;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Modal*/
+
+.overlay {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+  z-index: 300;
+  left: 0;
+  top: 0;
+  text-align: end;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.overlay__modal {
+  background-color: #fff;
+  padding: 20px 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.modal__img {
+  border-radius: 5px;
+  width: 100%;
+  max-height: 520px;
+}
+
+.modal__svg {
+  height: 24px;
+  width: 24px;
+  opacity: 0.3;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.modal__svg:hover {
+  opacity: 1;
+}
+
+.overlay.animated {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-flex{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
